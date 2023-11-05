@@ -21,7 +21,8 @@ XWaydroid, the Waydroid launcher tool to improve the user experience of KDE / X-
 ## Note-able Features
 - Directly launch the full `waydroid` UI in a `wayland` session window
 - Directly launch `waydroid` apps in a `wayland` session window
-- Patch all your `waydroid.*.desktop` files to directly launch in a `wayland` session window through `xwaydroid`!
+- Easily patch all your `waydroid.*.desktop` files,   
+    to directly launch in a `wayland` session window through `xwaydroid`!
 
 ## Dependencies
 XWaydroid requires the following dependencies to work properly,   
@@ -70,11 +71,11 @@ sudo ln -s /home/<username>/Documents/XWaydroid/xwaydroid.sh /usr/bin/xwaydroid
 ```
 
 ## Notes
-- Please be patient when starting the first `waydroid` app through `xwaydroid`.
+- Please be patient when starting the first `waydroid` app through `xwaydroid`.   
     A black `kwin_wayland` window for a few minutes, before you see the LineageOS loading logo, is normal.
-- If switching between `waydroid` apps through `xwaydroid`, it's recommended to leave the `kwin_wayland` window open.
-    Closing / re-opening the `kwin_wayland` window leads to a "reboot" of the `waydroid` session which takes a while.
+- If switching between `waydroid` apps through `xwaydroid`, it's recommended to leave the `kwin_wayland` window open.   
+    Closing / re-opening the `kwin_wayland` window leads to a "reboot" of the `waydroid` session which takes a while.   
     Leaving the `kwin_wayland` window, leads to instant startup of new `waydroid` apps.
 - Opening / using multiple `waydroid` apps through `xwaydroid` is supported, albeit through a single `kwin_wayland` window. 
-- The default values of some optional-options,
+- The default values of some optional-options,   
     can be configured in the `Default Settings` section at the start of the `xwaydroid` script.
